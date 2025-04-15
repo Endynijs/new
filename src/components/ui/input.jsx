@@ -1,1 +1,3 @@
-export function Input(props) { return <input {...props} className={props.className} /> }
+export function Input(props) {
+  return <input {...props} className={props.className} />;
+}
