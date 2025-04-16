@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input";
+import { Building2, Zap, Puzzle } from "lucide-react";
 
 export default function Homepage() {
   return (
@@ -19,7 +20,7 @@ export default function Homepage() {
       </header>
 
       {/* Hero */}
-      <section className="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center px-4" style={{ backgroundImage: "url('/hero-building-v3.jpg')" }}>
+      <section className="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center px-4" style={{ backgroundImage: "url('/hero-nijs.jpg')" }}>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10 max-w-2xl">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">Slimme oplossingen<br />voor slimme gebouwen</h1>
@@ -36,17 +37,17 @@ export default function Homepage() {
         </div>
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-6">
           <div className="bg-white p-8 rounded-xl shadow text-center border">
-            <div className="text-4xl mb-4">🏢</div>
+            <div className="flex justify-center mb-4"><Building2 className="w-10 h-10 text-[#0e141e]" /></div>
             <h3 className="font-semibold text-lg mb-2">Gebouwautomatisering</h3>
             <p className="text-sm text-gray-600">Verlichting, zonwering, klimaatcontrole, aanwezigheidssensoren en meer.</p>
           </div>
           <div className="bg-white p-8 rounded-xl shadow text-center border">
-            <div className="text-4xl mb-4">⚡</div>
+            <div className="flex justify-center mb-4"><Zap className="w-10 h-10 text-[#0e141e]" /></div>
             <h3 className="font-semibold text-lg mb-2">Energiebeheer</h3>
             <p className="text-sm text-gray-600">Slimme meters en optimalisatie van energieverbruik via monitoring en sturing.</p>
           </div>
           <div className="bg-white p-8 rounded-xl shadow text-center border">
-            <div className="text-4xl mb-4">🧩</div>
+            <div className="flex justify-center mb-4"><Puzzle className="w-10 h-10 text-[#0e141e]" /></div>
             <h3 className="font-semibold text-lg mb-2">Loxone partner</h3>
             <p className="text-sm text-gray-600">Integraties en maatwerkoplossingen met Loxone-systemen.</p>
           </div>
