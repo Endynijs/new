@@ -45,7 +45,7 @@ export default function Homepage() {
             <p className="text-sm text-gray-600">Slimme meters en optimalisatie van energieverbruik via monitoring en sturing.</p>
           </div>
           <div className="bg-white p-8 rounded-xl shadow text-center border">
-            <div className="flex justify-center mb-4"><img src="/loxone-logo.png" alt="Loxone" className="h-16 mx-auto mb-6 pt-2" /></div>
+            <div className="flex justify-center mb-4"><img src="/loxone-logo.png" alt="Loxone" className="h-20 mx-auto mb-4 pt-1" /></div>
             <h3 className="font-semibold text-lg mb-2">Loxone partner</h3>
             <p className="text-sm text-gray-600">Integraties en maatwerkoplossingen met Loxone-systemen.</p>
           </div>
