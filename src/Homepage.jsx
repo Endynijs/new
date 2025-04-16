@@ -97,6 +97,27 @@ export default function Homepage() {
           ></iframe>
         </div>
       </section>
+
+      {/* Contactinformatie + Kaart */}
+      <section className="bg-[#f9fafb] text-black py-20 px-4">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-start">
+          <div>
+            <h2 className="text-2xl font-bold mb-4">Onze gegevens</h2>
+            <p className="mb-2">📍 <strong>Adres:</strong> Nijverheidslaan 15, 3900 Pelt</p>
+            <p className="mb-2">📞 <strong>Telefoon:</strong> +32 475 12 34 56</p>
+            <p className="mb-2">✉️ <strong>E-mail:</strong> info@nijs.tech</p>
+            <p className="mt-4 text-sm text-gray-600">Wij helpen je graag verder met je automatiseringsproject.</p>
+          </div>
+          <iframe
+            title="Nijs locatie"
+            className="w-full h-64 rounded-xl shadow"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0177649389063!2d5.43091!3d51.20483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1329e2b7ea1ff%3A0x95cb519d3283950a!2sPelt!5e0!3m2!1snl!2sbe!4v1713282000000!5m2!1snl!2sbe"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
     </div>
   );
 }
