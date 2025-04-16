@@ -17,7 +17,7 @@ export default function Homepage() {
         </nav>
       </header>
 
-      <section className="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center px-4" style={{ backgroundImage: "url('/hero-building.jpg')" }}>
+      <section className="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center px-4" style={{ backgroundImage: "url('/hero-building-v2.jpg')" }}>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative z-10 max-w-2xl">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">Slimme oplossingen<br />voor slimme gebouwen</h1>
