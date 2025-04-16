@@ -1,12 +1,12 @@
+
 import React from "react";
 import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input";
-import { Building2, Zap, Puzzle } from "lucide-react";
+import { Building2, Zap } from "lucide-react";
 
 export default function Homepage() {
   return (
     <div className="bg-[#0e141e] text-white font-sans">
-      {/* Header */}
       <header className="flex justify-between items-center p-6 max-w-7xl mx-auto">
         <div className="text-xl font-bold">
           <img src="/nijs-logo-cropped.png" alt="Nijs Logo" className="h-20" />
@@ -19,7 +19,6 @@ export default function Homepage() {
         </nav>
       </header>
 
-      {/* Hero */}
       <section className="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center px-4" style={{ backgroundImage: "url('/hero-nijs.jpg')" }}>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10 max-w-2xl">
@@ -30,7 +29,6 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* Diensten */}
       <section id="diensten" className="bg-white text-black py-20 px-4">
         <div className="max-w-7xl mx-auto text-center mb-10">
           <h2 className="text-3xl font-bold">Onze diensten</h2>
@@ -47,14 +45,13 @@ export default function Homepage() {
             <p className="text-sm text-gray-600">Slimme meters en optimalisatie van energieverbruik via monitoring en sturing.</p>
           </div>
           <div className="bg-white p-8 rounded-xl shadow text-center border">
-            <div className="flex justify-center mb-4"><Puzzle className="w-10 h-10 text-[#0e141e]" /></div>
+            <div className="flex justify-center mb-4"><img src="/loxone-logo.png" alt="Loxone" className="w-14 h-14 mx-auto mb-4" /></div>
             <h3 className="font-semibold text-lg mb-2">Loxone partner</h3>
             <p className="text-sm text-gray-600">Integraties en maatwerkoplossingen met Loxone-systemen.</p>
           </div>
         </div>
       </section>
 
-      {/* Over ons */}
       <section id="over" className="bg-[#0e141e] text-white py-20 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <img src="/office-interior.jpg" alt="Kantoorinterieur" className="rounded-xl shadow" />
@@ -65,7 +62,6 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* Contact */}
       <section id="contact" className="bg-white py-20 px-4">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow">
           <h2 className="text-2xl font-bold mb-4 text-black">Contact</h2>
