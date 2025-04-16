@@ -80,9 +80,9 @@ export default function Homepage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-start">
           <div>
             <h2 className="text-2xl font-bold mb-4">Onze gegevens</h2>
-            <p className="mb-2">📍 <strong>Adres:</strong> Nijverheidslaan 15, 3900 Pelt</p>
-            <p className="mb-2">📞 <strong>Telefoon:</strong> +32 475 12 34 56</p>
-            <p className="mb-2">✉️ <strong>E-mail:</strong> info@nijs.tech</p>
+            <p className="mb-2">📍 <strong>Adres:</strong> Driekruisenstraat 74, 3700 Tongeren-Borgloon</p>
+            <p className="mb-2">📞 <strong>Telefoon:</strong> +32 492 31 98 78</p>
+            <p className="mb-2">✉️ <strong>E-mail:</strong> endy@nijs.tech</p>
             <p className="mt-4 text-sm text-gray-600">Wij helpen je graag verder met je automatiseringsproject.</p>
           </div>
           <iframe
