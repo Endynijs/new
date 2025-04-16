@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "./components/ui/button";
 import { Input } from "./components/ui/input";
@@ -45,7 +44,9 @@ export default function Homepage() {
             <p className="text-sm text-gray-600">Slimme meters en optimalisatie van energieverbruik via monitoring en sturing.</p>
           </div>
           <div className="bg-white p-8 rounded-xl shadow text-center border">
-            <div className="flex justify-center mb-4"><img src="/loxone-logo.png" alt="Loxone" className="h-20 mx-auto mb-4 pt-1" /></div>
+            <div className="flex justify-center mb-4">
+              <img src="/loxone-logo.png" alt="Loxone" className="h-20 mx-auto mb-4 pt-1" />
+            </div>
             <h3 className="font-semibold text-lg mb-2">Loxone partner</h3>
             <p className="text-sm text-gray-600">Integraties en maatwerkoplossingen met Loxone-systemen.</p>
           </div>
@@ -73,32 +74,8 @@ export default function Homepage() {
             <Button className="bg-[#5fd68b] hover:bg-[#4cc27a] text-black rounded-xl">Verzenden</Button>
           </form>
         </div>
-      
-        </div>
       </section>
 
-      {/* Contactinformatie + Kaart */}
-      <section className="bg-[#f9fafb] text-black py-20 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-start">
-          <div>
-            <h2 className="text-2xl font-bold mb-4">Onze gegevens</h2>
-            <p className="mb-2">📍 <strong>Adres:</strong> Nijverheidslaan 15, 3900 Pelt</p>
-            <p className="mb-2">📞 <strong>Telefoon:</strong> +32 475 12 34 56</p>
-            <p className="mb-2">✉️ <strong>E-mail:</strong> info@nijs.tech</p>
-            <p className="mt-4 text-sm text-gray-600">Wij helpen je graag verder met je automatiseringsproject.</p>
-          </div>
-          <iframe
-            title="Nijs locatie"
-            className="w-full h-64 rounded-xl shadow"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0177649389063!2d5.43091!3d51.20483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1329e2b7ea1ff%3A0x95cb519d3283950a!2sPelt!5e0!3m2!1snl!2sbe!4v1713282000000!5m2!1snl!2sbe"
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-      </section>
-
-      {/* Contactinformatie + Kaart */}
       <section className="bg-[#f9fafb] text-black py-20 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-start">
           <div>
@@ -121,4 +98,3 @@ export default function Homepage() {
     </div>
   );
 }
-
