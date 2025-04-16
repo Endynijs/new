@@ -7,7 +7,7 @@ export default function Homepage() {
     <div className="bg-[#0e141e] text-white font-sans">
       <header className="flex justify-between items-center p-6 max-w-7xl mx-auto">
         <div className="text-xl font-bold">
-          <img src="/nijs-logo.png" alt="Nijs Solutions Group" className="h-10" />
+          <img src="/nijs-logo-transparent.png" alt="Nijs Logo" className="h-16" />
         </div>
         <nav className="space-x-6 text-sm text-white/80">
           <a href="#diensten">Diensten</a>
@@ -18,7 +18,7 @@ export default function Homepage() {
       </header>
 
       <section className="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center px-4" style={{ backgroundImage: "url('/hero-building.jpg')" }}>
-        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative z-10 max-w-2xl">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">Slimme oplossingen<br />voor slimme gebouwen</h1>
           <a href="#contact">
