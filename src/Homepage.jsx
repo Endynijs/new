@@ -85,14 +85,16 @@ export default function Homepage() {
             <p className="mb-2">✉️ <strong>E-mail:</strong> endy@nijs.tech</p>
             <p className="mt-4 text-sm text-gray-600">Wij helpen je graag verder met je automatiseringsproject.</p>
           </div>
-          <iframe
-            title="Nijs locatie"
-            className="w-full h-64 rounded-xl shadow"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.251307293557!2d5.321960176861539!3d50.80572461047605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f0b1e8b1c1a3%3A0x123456789abcdef!2sDriekruisenstraat%2074%2C%203700%20Borgloon%2C%20Belgium!5e0!3m2!1sen!2sbe!4v1610000000000!5m2!1sen!2sbe"2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1329e2b7ea1ff%3A0x95cb519d3283950a!2sPelt!5e0!3m2!1snl!2sbe!4v1713282000000!5m2!1snl!2sbe"
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+          
+<iframe
+  title="Nijs locatie"
+  className="w-full h-64 rounded-xl shadow"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.251307293557!2d5.321960176861539!3d50.80572461047605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f0b1e8b1c1a3%3A0x123456789abcdef!2sDriekruisenstraat%2074%2C%203700%20Borgloon%2C%20Belgium!5e0!3m2!1sen!2sbe!4v1610000000000!5m2!1sen!2sbe"
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+
         </div>
       </section>
     </div>
