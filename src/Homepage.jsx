@@ -7,7 +7,7 @@ export default function Homepage() {
     <div className="bg-[#0e141e] text-white font-sans">
       <header className="flex justify-between items-center p-6 max-w-7xl mx-auto">
         <div className="text-xl font-bold">
-          <img src="/nijs-logo-cropped.png" alt="Nijs Logo" className="h-40" />
+          <img src="/nijs-logo-cropped.png" alt="Nijs Logo" className="h-20" />
         </div>
         <nav className="space-x-6 text-sm text-white/80">
           <a href="#diensten">Diensten</a>
