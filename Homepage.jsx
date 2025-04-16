@@ -68,9 +68,9 @@ export default function Homepage() {
           <h2 className="text-2xl font-bold mb-4 text-black">Contact</h2>
           <p className="mb-6 text-gray-700">Neem gerust contact met ons op voor meer informatie of een adviesgesprek.</p>
           <form className="grid gap-4">
-            <Input name="naam" placeholder="Naam" className="bg-gray-100 text-black" />
-            <Input type="email" name="email" placeholder="E-mailadres" className="bg-gray-100 text-black" />
-            <textarea name="bericht" placeholder="Bericht" className="bg-gray-100 text-black p-2 rounded-md" rows="4"></textarea>
+            <Input name="naam" placeholder="Naam" className="bg-gray-100 text-black" className="bg-gray-100" />
+            <Input type="email" name="email" placeholder="E-mailadres" className="bg-gray-100 text-black" className="bg-gray-100" />
+            <textarea name="bericht" placeholder="Bericht" className="bg-gray-100 text-black p-2 rounded-md" rows="4"></textarea> className="bg-gray-100" />
             <Button className="bg-[#5fd68b] hover:bg-[#4cc27a] text-black rounded-xl">Verzenden</Button>
           </form>
         </div>
