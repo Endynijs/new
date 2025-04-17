@@ -10,12 +10,14 @@ export default function Homepage() {
         <div className="text-xl font-bold">
           <img src="/nijs-logo-cropped.png" alt="Nijs Logo" className="h-20" />
         </div>
-        <nav className="flex flex-col sm:flex-row sm:space-x-6 space-y-2 sm:space-y-0 text-sm text-white/80 text-right sm:text-left">
-          <a href="#diensten" className="border border-white/40 rounded-md px-3 py-1 hover:bg-white/10 transition block sm:inline-block text-center">Diensten</a>
-          <a href="#over" className="border border-white/40 rounded-md px-3 py-1 hover:bg-white/10 transition block sm:inline-block text-center">Over ons</a>
-          <a href="#projecten" className="border border-white/40 rounded-md px-3 py-1 hover:bg-white/10 transition block sm:inline-block text-center">Projecten</a>
-          <a href="#contact" className="border border-white/40 rounded-md px-3 py-1 hover:bg-white/10 transition block sm:inline-block text-center">Contact</a>
-        </nav>
+        
+<nav className="flex flex-wrap justify-end gap-2 sm:gap-4 text-sm text-white/80">
+  <a href="#diensten" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Diensten</a>
+  <a href="#over" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Over ons</a>
+  <a href="#projecten" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Projecten</a>
+  <a href="#contact" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Contact</a>
+</nav>
+
       </header>
 
       <section className="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center px-4" style={{ backgroundImage: "url('/hero-nijs.jpg')" }}>
