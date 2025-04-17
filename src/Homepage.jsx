@@ -10,7 +10,7 @@ export default function Homepage() {
         <div className="text-xl font-bold">
           <img src="/nijs-logo-cropped.png" alt="Nijs Logo" className="h-20" />
         </div>
-        <nav className="space-x-6 text-sm text-white/80">
+        <nav className="flex flex-col sm:flex-row sm:space-x-6 space-y-2 sm:space-y-0 text-sm text-white/80 text-right sm:text-left">
           <a href="#diensten">Diensten</a>
           <a href="#over">Over ons</a>
           <a href="#projecten">Projecten</a>
