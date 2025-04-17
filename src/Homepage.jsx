@@ -6,19 +6,19 @@ import { Building2, Zap } from "lucide-react";
 export default function Homepage() {
   return (
     <div className="bg-[#0e141e] text-white font-sans">
-      <header className="flex justify-between items-center p-6 max-w-7xl mx-auto">
-        <div className="text-xl font-bold">
-          <img src="/nijs-logo-cropped.png" alt="Nijs Logo" className="h-20" />
-        </div>
-        
-<nav className="flex flex-wrap justify-end gap-2 sm:gap-4 text-sm text-white/80">
-  <a href="#diensten" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Diensten</a>
-  <a href="#over" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Over ons</a>
-  <a href="#projecten" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Projecten</a>
-  <a href="#contact" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Contact</a>
-</nav>
+      
+<header className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 p-6 max-w-7xl mx-auto">
+  <div className="text-xl font-bold">
+    <img src="/nijs-logo-cropped.png" alt="Nijs Logo" className="h-20" />
+  </div>
+  <nav className="flex flex-wrap justify-end gap-2 sm:gap-4 text-sm text-white/80">
+    <a href="#diensten" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Diensten</a>
+    <a href="#over" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Over ons</a>
+    <a href="#projecten" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Projecten</a>
+    <a href="#contact" className="border border-white/50 rounded-lg px-4 py-2 hover:bg-white/10 transition">Contact</a>
+  </nav>
+</header>
 
-      </header>
 
       <section className="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center px-4" style={{ backgroundImage: "url('/hero-nijs.jpg')" }}>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
